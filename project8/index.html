@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AstroApp</title>
+</head>
+<body style="background-color: black;">
+    <div style="background-color: azure;height: 50rem; width: 50rem; margin-left:10rem; text-align: center;">
+        <h1>AstroApp</h1>
+        <form id="form" action="#" style="display:flex; flex-direction: column; margin-left: 10rem; width: 10rem; text-align: center;">
+            <label for="name">First Name</label>
+            <input type="text" placeholder="name" id="name" name="name" required>
+
+            <label for="surname">Last Name</label>
+            <input type="text" placeholder="surname" id="surname" name="surname" required>
+
+            <label for="Day">Birth-Day</label>
+            <input type="number" placeholder="Birth-Day" id="Day" min="1" max="31" required>
+
+            <label for="Month">Birth-Month</label>
+            <input type="number" placeholder="Birth-Month" id="Month" min="1" max="12" required>
+
+            <label for="Year">Birth-Year</label>
+            <input type="number" placeholder="Birth-Year" id="Year" min="1990" max="2026" required>
+            <button>submit</button>
+        </form>
+        <h3 id="result">Show Result</h3>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
